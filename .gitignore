@@ -1,0 +1,19 @@
+# Dependencias (son muy pesadas, se instalan con npm install)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Archivos de entorno (SEGURIDAD: Aquí están tus claves)
+.env
+backend/.env
+
+# Archivos de construcción de Next.js
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# Logs y sistemas
+.DS_Store
+*.log
